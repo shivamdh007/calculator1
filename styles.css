@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Logo */
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Calculator */
+.calculator {
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Display */
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #444;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.buttons, .scientific-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.2rem;
+    background: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #777;
+}
+
+/* Scientific Buttons */
+.scientific-buttons {
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
